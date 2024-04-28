@@ -1,4 +1,4 @@
-import React, { PropsWithChildren} from 'react';
+import React, { PropsWithChildren } from 'react';
 import styled from '@emotion/styled';
 import { LoadingSpinner } from '@apollo/space-kit/Loaders/LoadingSpinner';
 import { ApolloError } from '@apollo/client'
@@ -29,8 +29,8 @@ const QueryResult: React.FC<PropsWithChildren<QueryResultProps>> = ({ loading, e
     return <>{children}</>;
   }
 
-    return <p>Nothing to show...</p>;
-  
+  return <p>Nothing to show...</p>;
+
 };
 
 export default QueryResult;
